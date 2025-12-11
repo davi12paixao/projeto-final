@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia Simples</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f2f2f2;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            background: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .box {
+            background: white;
+            padding: 15px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <h1>OLÍMPIO ZID</h1>
+    </header>
+
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#planos">Planos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <section id="sobre">
+        <div class="box">
+            <h2>Sobre Nós</h2>
+            <p>Somos uma academia simples, mas com muita dedicação para ajudar você a treinar e se sentir melhor.</p>
+        </div>
+    </section>
+
+    <section id="servicos">
+        <div class="box">
+            <h2>Serviços</h2>
+            <ul>
+                <li>Musculação</li>
+                <li>Aulas de dança</li>
+                <li>Alongamento</li>
+                <li>Treino funcional</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="planos">
+        <div class="box">
+            <h2>Planos</h2>
+            <p>Mensal: R$ 80,00</p>
+            <p>Trimestral: R$ 200,00</p>
+            <p>Anual: R$ 600,00</p>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="box">
+            <h2>Contato</h2>
+            <p>Email: academiaenergia@email.com</p>
+            <p>Telefone: (11) 99999-9999</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Academia Energia</p>
+    </footer>
+
+</body>
+</html>
