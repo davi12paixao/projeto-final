@@ -4,39 +4,197 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>malhar é viver</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
     <style>
-    body { font-family: Arial, sans-serif; background: #0d47a1; color: white;}
-    header { text-align: center; padding: 20px; background: #283593; }
-    h1 { margin: 0; font-size: 3em; cursor: pointer; }
-    nav { background: #3949ab; display: flex; justify-content: center; gap: 10px; padding: 10px 0;}
-    nav a { color: white; font-weight: bold; text-decoration: none; padding: 10px 15px; border-radius: 6px;}
+      body {
+        font-family: Arial, sans-serif;
+        background: #0d47a1;
+        color: white;
+      }
+      header {
+        text-align: center;
+        padding: 20px;
+        background: #283593;
+      }
+      h1 {
+        margin: 0;
+        font-size: 3em;
+        cursor: pointer;
+      }
+      nav {
+        background: #3949ab;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px 0;
+      }
+      nav a {
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 6px;
+      }
+      .box {
+        background: rgba(255, 255, 255, 0.1);
+        padding: 20px;
+        border-radius: 8px;
+        margin: 10px auto;
+        max-width: 800px;
+      }
+      .box img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin: 15px 0;
+        display: block;
+      }
     </style>
   </head>
-  <body>
+  <body class="p-2">
     <header>
-      <h1>OLÍMPIO ZID </h1>
+      <h1>OLÍMPIO ZID</h1>
     </header>
     <nav>
-      <a href="#info">Sobre Nós</a>
-      <a href="#serviços">serviços</a>
-      <a href="#formulario">Fomulario de Cadastro</a>
-      <a href="#info">info</a>
+      <a href="#sobre">Sobre nós</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#planos">Nossos planos</a>
+      <a href="#contato">Contatos</a>
     </nav>
-    <section id="info">
-            <h2>Sobre Nós</h2>
-            <p>Somos uma academia simples, mas com muita dedicação para ajudar você a treinar e se sentir melhor.</p>
-        </div>
+    <section id="sobre" class="mb-2">
+      <div class="box">
+        <h2>Sobre Nós</h2>
+        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&h=500&fit=crop" alt="Academia Olímpio ZID" />
+        <p>
+          A OLIMPIO ZID é um espaço dedicado à saúde, bem-estar e qualidade de vida, oferecendo uma estrutura completa para quem busca praticar exercícios com segurança, motivação e acompanhamento profissional. Nossa missão é proporcionar aos alunos uma experiência única, unindo tecnologia, conforto e um ambiente acolhedor que estimule a prática regular de atividades físicas.
+
+Com uma equipe de profissionais qualificados, equipamentos modernos e programas de treinamento adaptados para todos os níveis de condicionamento, a OLIMPIO ZID se destaca como uma referência em promoção de saúde e desempenho físico. Trabalhamos com modalidades variadas, como musculação, treinamento funcional, aulas coletivas, alongamento, dança e atendimentos personalizados, garantindo opções para todos os objetivos: emagrecimento, ganho de massa muscular, condicionamento físico, reabilitação e bem-estar geral.
+
+Nosso compromisso é acompanhar cada aluno em sua jornada, oferecendo orientação técnica, avaliações periódicas e um ambiente seguro, motivador e inclusivo. Acreditamos que a atividade física é uma ferramenta poderosa para transformar vidas, e estamos aqui para tornar esse processo mais leve, eficiente e prazeroso.
+
+        </p>
+      </div>
     </section>
-    <section id="serviços">
-        <div class="box">
-            <h2>Serviços</h2>
-            <ul>
-                <li>Musculação</li>
-                <li>Aulas de dança</li>
-                <li>Alongamento</li>
-                <li>Treino funcional</li>
-            </ul>
-        </div>
-    </section
+
+    <section id="servicos">
+      <div class="box">
+        <h2>Serviços</h2>
+        <ul>
+          <li>Musculação</li>
+          <li>Aulas de dança</li>
+          <li>Alongamento</li>
+          <li>Treino funcional</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="planos">
+      <div class="box">
+        <h2>Planos</h2>
+        <p>Mensal: R$ 80,00</p>
+        <p>Trimestral: R$ 200,00</p>
+        <p>Anual: R$ 600,00</p>
+      </div>
+    </section>
+
+    <section id="contato">
+      <div class="box">
+        <h2>Contato</h2>
+        <p>Email: olimpiozid@gmail.com</p>
+        <p>Telefone: (85) 98933-0179</p>
+        <p>Instagram: OLIMPIO.ZID</p>
+      </div>
+    </section>
+        <footer>
+        <p>© 2025 Academia olimpiozid</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>);
+        padding: 20px;
+        border-radius: 8px;
+        margin: 10px auto;
+        max-width: 800px;
+      }
+      .box img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin: 15px 0;
+        display: block;
+      }
+    </style>
+  </head>
+  <body class="p-2">
+    <header>
+      <h1>OLÍMPIO ZID</h1>
+    </header>
+    <nav>
+      <a href="#sobre">Sobre nós</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#planos">Nossos planos</a>
+      <a href="#contato">Contatos</a>
+    </nav>
+    <section id="sobre" class="mb-2">
+      <div class="box">
+        <h2>Sobre Nós</h2>
+        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&h=500&fit=crop" alt="Academia Olímpio ZID" />
+        <p>
+          A OLIMPIO ZID é um espaço dedicado à saúde, bem-estar e qualidade de vida, oferecendo uma estrutura completa para quem busca praticar exercícios com segurança, motivação e acompanhamento profissional. Nossa missão é proporcionar aos alunos uma experiência única, unindo tecnologia, conforto e um ambiente acolhedor que estimule a prática regular de atividades físicas.
+
+Com uma equipe de profissionais qualificados, equipamentos modernos e programas de treinamento adaptados para todos os níveis de condicionamento, a OLIMPIO ZID se destaca como uma referência em promoção de saúde e desempenho físico. Trabalhamos com modalidades variadas, como musculação, treinamento funcional, aulas coletivas, alongamento, dança e atendimentos personalizados, garantindo opções para todos os objetivos: emagrecimento, ganho de massa muscular, condicionamento físico, reabilitação e bem-estar geral.
+
+Nosso compromisso é acompanhar cada aluno em sua jornada, oferecendo orientação técnica, avaliações periódicas e um ambiente seguro, motivador e inclusivo. Acreditamos que a atividade física é uma ferramenta poderosa para transformar vidas, e estamos aqui para tornar esse processo mais leve, eficiente e prazeroso.
+
+        </p>
+      </div>
+    </section>
+
+    <section id="servicos">
+      <div class="box">
+        <h2>Serviços</h2>
+        <ul>
+          <li>Musculação</li>
+          <li>Aulas de dança</li>
+          <li>Alongamento</li>
+          <li>Treino funcional</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="planos">
+      <div class="box">
+        <h2>Planos</h2>
+        <p>Mensal: R$ 80,00</p>
+        <p>Trimestral: R$ 200,00</p>
+        <p>Anual: R$ 600,00</p>
+      </div>
+    </section>
+
+    <section id="contato">
+      <div class="box">
+        <h2>Contato</h2>
+        <p>Email: olimpiozid@gmail.com</p>
+        <p>Telefone: (85) 98933-0179</p>
+        <p>Instagram: OLIMPIO.ZID</p>
+      </div>
+    </section>
+        <footer>
+        <p>© 2025 Academia olimpiozid</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
